@@ -1,0 +1,10 @@
+.container-cal {
+  max-width: 60%;
+  margin: 5px auto;
+  display: flex;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+  }

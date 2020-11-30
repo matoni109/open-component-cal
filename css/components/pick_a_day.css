@@ -1,0 +1,16 @@
+
+.pick-a-day {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  background: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.icon{
+  text-align: center;
+  margin: auto;
+  padding-right: 15px;
+}

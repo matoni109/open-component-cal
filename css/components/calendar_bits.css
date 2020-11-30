@@ -1,0 +1,70 @@
+/*Cal sits inside .content div */
+.content {
+    padding: 2rem;
+    min-width: 460px;
+
+}
+
+.date-today {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.today {
+    flex-grow: 5;
+
+}
+
+.today p {
+    color: black !important;
+    opacity: 0.8;
+    font-weight: bolder !important;
+}
+
+.date-today p {
+    flex-grow: 2;
+    text-decoration: none;
+    color: #268BD2;
+    font-size: larger;
+}
+
+/*end date today*/
+
+/*start days of week*/
+
+.days-of-the-week {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+.days-of-the-week p {
+    text-decoration: none;
+    color: #268BD2;
+    font-weight: bolder !important;
+}
+
+/*calendar dates start*/
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    text-align: center;
+}
+
+.date-grid .dates {
+    text-decoration: none;
+    padding: 20px;
+    color: black !important;
+    opacity: 0.9;
+    font-weight: bolder !important;
+}
+
+a.dates.not-month {
+
+    opacity: .5;
+
+}
